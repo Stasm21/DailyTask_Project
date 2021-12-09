@@ -5,7 +5,7 @@ const DateTime = () => {
 
 
     const showdate = new Date();
-    const displayDate =  showdate.getDate()+'/'+showdate.getMonth()+'/'+showdate.getFullYear();
+    const displayDate =  (showdate.getMonth() + 1) + '-' + showdate.getDate() + '-' + showdate.getFullYear();
     console.log(displayDate)
 
 
